@@ -31,7 +31,7 @@ except ImportError:
 
 
 """内置数据源source_dict"""
-source_dict = {EMarketSourceType.E_MARKET_SOURCE_bd.value: BDApi,
+source_dict = {#EMarketSourceType.E_MARKET_SOURCE_bd.value: BDApi,
                EMarketSourceType.E_MARKET_SOURCE_tx.value: TXApi,
                EMarketSourceType.E_MARKET_SOURCE_nt.value: NTApi,
                EMarketSourceType.E_MARKET_SOURCE_sn_us.value: SNUSApi,
